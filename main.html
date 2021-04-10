@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>창경궁</title>
+	<meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ 	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+ 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap&subset=korean" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap&subset=korean" rel="stylesheet">
+
+ 	<script src="script.js"></script>
+ 	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+	
+		<nav>
+			<a href="main.html"><img id="logo" src="img/logo.png" width="50px"></a>
+				<div class="drawer1" id="drawer">
+					<a href="미리보는창경궁/소개.html">미리보는 창경궁</a>
+				</div>
+
+				<div class="drawer2" id="drawer" >
+					<a href="#">관람안내</a>
+				</div>
+
+				<div class="drawer3" id="drawer" >
+					<a href="#">예약/신청</a>
+				</div>
+
+				<div class="drawer4" id="drawer" >
+					<a href="#">자료실</a>
+				</div>
+
+				<div class="drawer5" id="drawer" >
+					<a href="#">열린광장</a>
+				</div>
+
+				<div class="drawer6" id="drawer" >
+					<a href="#">기관소개</a>
+				</div>
+				<div class="drawer-menu1" id="drawer-menu">
+					<a href="미리보는창경궁/소개.html"><p>소개</p></a>
+					<a href="미리보는창경궁/역사.html"><p>역사</p></a>
+					<a href="미리보는창경궁/창경궁미리보기.html"><p>창경궁 미리보기</p></a>
+				</div>
+				<div class="drawer-menu2" id="drawer-menu">
+					<a href="#"><p>관람정보</p></a>
+					<a href="#"><p>편의시설</p></a>
+					<a href="#"><p>찾아오시는 길</p></a>
+				</div>
+				<div class="drawer-menu3" id="drawer-menu">
+					<a href="#"><p>청소년단체관람</p></a>
+					<a href="#"><p>문화행사예약</p></a>
+					<a href="#"><p>촬영 및 장소 사용안내</p></a>
+					<a href="#"><p>예약확인</p></a>
+				</div>
+				<div class="drawer-menu4" id="drawer-menu">
+					<a href="#"><p>발간자료</p></a>
+				</div>
+				<div class="drawer-menu5" id="drawer-menu">
+					<a href="#"><p>자주묻는 질문(FAQ)</p></a>
+					<a href="#"><p>민원신청</p></a>
+					<a href="#"><p>창경궁 소식</p></a>
+				</div>
+				<div class="drawer-menu6" id="drawer-menu">
+					<a href="#"><p>인사말</p></a>
+					<a href="#"><p>업무 및 직원소개</p></a>
+				</div>
+			
+		</nav>
+
+
+
+
+
+		<div id="main_picture">
+			<ul class="slider">
+				<li>
+					<img src="img/창경궁야경.jpg">
+					<div class="caption">
+						<div>
+							<p id="boxname">창경궁 (昌慶宮)</p>
+						</div>
+						<div id="textbox">
+							<p>- 사적 제123호 -</p>
+							<p>성종 14년(1483)에 세조비 정희왕후, 예종비 안순왕후, 덕종비 소혜왕후</p>
+							<p>세분의 대비를 모시기 위해 옛 수강궁터에 창건한 궁</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<img src="img/명정전.jpg">
+					<div class="caption">
+						<div>
+							<p id="boxname">창경궁 명정전 (昌慶宮 明政殿)</p>
+						</div>
+						<div id="textbox">
+							<p>- 국보 제 226호 -</p>
+							<p>명정전은 창경궁의 으뜸 전각인 정전(正殿)으로, 국왕의 즉위식,</p>
+							<p>신하들의 하례, 과거시험, 궁중연회 등의 공식적 행사를 치렀던 장소</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<img src="img/옥천교.jpg">
+					<div class="caption">
+						<div>
+							<p id="boxname">창경궁 옥천교 (昌慶宮 玉川橋)</p>
+						</div>
+						<div id="textbox">
+							<p>- 보물 제386호 -</p>
+							<p>각 부분의 양식과 조각이 특별하며, 특히 다른 궐의 어느 것보다도</p>
+							<p>아름다운 모습을 지니고 있는 돌다리</p>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<img src="img/대온실.jpg">
+					<div class="caption">
+						<div>
+							<p id="boxname">대온실</p>
+						</div>
+						<div id="textbox">
+							<p>- 등록문화재 제83호 -</p>
+							<p>1909년에 건축된 주철골구조와 목조가 혼합된 구조체에 외피를 유리로 둘러싼 우리나라 최초의 양식 온실</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="footermenu">
+			
+			<div onclick="location.href='#'">
+				<div id="shadow"></div>
+
+				<p id="s_title">관람요금및시간</p>
+				<img id="next" src="img/next_w.svg" width="8%">
+				<br><br>
+				<p>휴궁일(休宮日) : 매주 월요일<br>매표장소 : 함양문</p>
+				<img src="img/느낌표.svg" width="18%">
+				
+			</div>
+			<div onclick="location.href='#'">
+				<div id="shadow"></div>
+				<p id="s_title">관람규칙</p>
+				<img id="next" src="img/next_b.svg" width="8%">
+				<br><br>
+				<p>관람하시면서 꼭 준수해<br>주셔야 할 사항입니다.</p>
+				<img src="img/체크리스트.svg" width="18%">
+			</div>
+			<div onclick="location.href='#'">
+				<div id="shadow"></div>
+				<p id="s_title">촬영및장소사용</p>
+				<img id="next" src="img/next_w.svg" width="8%">
+				<br><br>
+				<p>촬영을 하고자 하시는 분에 대한<br>신청 안내</p>
+				<img src="img/비디오카메라.svg" width="18%">
+			</div>
+			<div onclick="location.href='#'">
+				<div id="shadow"></div>
+				<p id="s_title">찾아오시는길</p>
+				<img id="next" src="img/next_w.svg" width="8%">
+				<br><br>
+				<p>서울특별시 종로구 창경궁로 185</p>
+				<img src="img/gps.svg" width="18%">
+			</div>
+		</div>
+		<div class="footer">
+			<img src="img/문화재청창경궁.png" height="60px">
+			<p>(우)03072 서울시 종로구 창경궁로 185 찾아오시는길 전화 : 02-762-4868  팩스 : 02-762-9514<br>
+			Copyrightⓒ2017 문화재청 창경궁관리소. All rights reserved.</p>
+		</div>
+</body>
+</html>

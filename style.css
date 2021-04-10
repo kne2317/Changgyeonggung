@@ -1,0 +1,234 @@
+*{
+		margin:0; padding:0; box-sizing: border-box; font-family: 'Noto Sans KR', sans-serif; 
+		}
+
+
+		body::before {
+   			background-image:url('img/back.jpg');
+    		position:fixed;
+    		background-size:100%;
+    		opacity:0.2!important;
+    		z-index:-1;
+    		content:"";
+    		width:100%;
+    		height:100%;
+		}
+
+
+		li{
+			list-style-type: none;
+			float:left;
+		}
+		.slider li img{
+			margin: 0 auto;
+			z-index: 1;
+			float: left;
+		}
+		#main_picture{
+			width: 77%;
+			position: relative;
+			margin-right: 170px;
+			margin-left: 170px;
+		}
+		#logo{
+			margin:15px;
+			float: left;
+			margin-left:30px;
+		}
+		nav{
+			width:100%;
+			height: 70px;
+			background-color: black;
+			margin-bottom: 20px;
+			z-index: 5;
+		}
+		a { text-decoration:none }
+		#drawer a:hover {color: white; font-size: 26px;}
+		.caption{
+			z-index: 5;
+			background-color: rgba(0,0,0,0.6);
+			width: 1300px;
+			height: 450px;
+			position: absolute;
+			float: left;
+
+		}
+		.caption div:nth-child(1){
+			position: absolute;
+			border: 1px solid white;
+			z-index: 6;
+			height: 100px;
+			width: 700px;
+			padding-top: 25px;
+			padding-left: 130px;
+			top:50%;
+			left:50%;
+			margin-top:-120px;
+			margin-left:-420px;
+
+		}
+		#textbox{
+			margin: 240px;
+		}
+
+		#boxname{
+			text-align: center;
+			font-size: 40px;
+			z-index: 7;
+			color: white;
+			font-family: 'Nanum Myeongjo', serif;
+		}
+		.caption div p{
+			font-size: 17px;
+			color: white;
+			z-index: 9;
+			text-align: center;
+			margin-left: -130px;
+		}
+		#drawer-menu{
+			display: none;
+			z-index: 20;
+			position: absolute;
+			background-color: black;
+			padding:15px;
+			width: 100%;
+			height: 70px;
+			margin:0 auto;
+			margin-top: 65px;
+
+		}
+
+		#drawer{
+			z-index: 21;
+			margin-top: 20px;
+			background-color:black; 
+		}
+		#drawer a{
+			color: lightgray;
+			font-size: 22px;
+			z-index: 20;
+		}
+		#drawer-menu a{
+			z-index: 20;
+			font-size: 19px;
+			float: left;
+			color: beige;
+			text-align: center;
+			padding-right: 100px;
+			padding-left:130px;
+
+		}
+		.drawer1{
+			float: left;
+			position: absolute;
+			margin-left: 10%;
+		}
+		.drawer2{
+			float: left;
+			position: absolute;
+			margin-left: 28%;
+		}
+		.drawer3{
+			position: absolute;
+			margin-left: 42%;
+		}
+		.drawer4{
+			float: left;
+			position: absolute;
+			margin-left: 58%;
+		}
+		.drawer5{
+			float: left;
+			position: absolute;
+			margin-left: 73%;
+		}
+		.drawer6{
+			position: absolute;
+			margin-left: 88%;
+		}
+		#drawer-menu a:hover{ font-size: 22px; }
+		.footermenu{
+			margin: 0 auto;
+			width: 100%;
+			height: 180px;
+			margin-top: 10px;
+			margin-bottom: 15px;
+			padding: 0;
+		}
+		.footermenu div{
+			color: white;
+			width: 25%;
+			height: 100%;
+			padding: 30px;
+			float: left;
+			position: relative;
+			z-index: 1;
+		}
+		.footermenu div p{
+			font-size: 15px;
+			float: left;
+			z-index: 10;
+			position: relative;
+		}
+		.footermenu div:nth-child(1){
+			background-color: rgb(177,94,88);
+		}
+		.footermenu div:nth-child(2){
+			background-color: rgb(233,188,101);
+			color: black;
+		}
+		.footermenu div:nth-child(3){
+			background-color: rgb(136,136,136);
+		}
+		.footermenu div:nth-child(4){
+			background-color: rgb(33,147,138);
+		}
+		.footermenu div img{
+			float: right;
+			float: top;
+		}
+		#s_title{
+			font-size: 25px;
+		}
+		#next{
+			float: left;
+			margin-left: 15px;
+			margin-top:6px;
+		}
+		.footermenu div:hover #next{
+			position: relative;
+			animation: ddd .9s infinite;
+		}
+		#shadow{
+			margin-top:-30px;
+			margin-left: -30px;
+			display: none;
+			z-index: 2;
+			width:100%;
+			height: 100%;
+			background-color:rgba(0,0,0,0.1);
+		}
+		.footermenu div:hover #shadow{
+			position: absolute;
+			display: block;
+			z-index: 3;
+		}
+		@keyframes ddd{
+				from{left: -3px}
+				to{ left:3px }
+		}
+		.footer{
+			width: 100%;
+			height: 100px;
+			background-color: white;
+			padding: 25px;
+		}
+		.footer img{
+			float: left;
+			margin-right: 80px;
+			margin-left: 200px;
+		}
+		.footer p{
+			font-size: 15px;
+			color: gray;
+		}

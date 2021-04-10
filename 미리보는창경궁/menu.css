@@ -1,0 +1,77 @@
+*{
+	margin:0; padding:0; box-sizing: border-box; font-family: 'Noto Sans KR', sans-serif; 
+}
+nav{
+	width:100%;
+	height: 70px;
+	background-color: black;
+	z-index: 5;
+}
+#logo{
+			margin:15px;
+			float: left;
+			margin-left:30px;
+		}
+a { text-decoration:none }
+#drawer a:hover {color: white; font-size: 26px;}
+#drawer-menu{
+	display: none;
+	z-index: 20;
+	position: absolute;
+	background-color: black;
+	padding:15px;
+	width: 100%;
+	height: 70px;
+	margin:0 auto;
+	margin-top: 65px;
+
+}
+#drawer{
+	z-index: 21;
+	margin-top: 20px;
+	background-color:black; 
+}
+#drawer a{
+	color: lightgray;
+	font-size: 22px;
+	z-index: 20;
+}
+#drawer-menu a{
+	z-index: 20;
+	font-size: 19px;
+	float: left;
+	color: beige;
+	text-align: center;
+	padding-right: 100px;
+	padding-left:130px;
+
+}
+.drawer1{
+	float: left;
+	position: absolute;
+	margin-left: 10%;
+}
+.drawer2{
+	float: left;
+	position: absolute;
+	margin-left: 28%;
+}
+.drawer3{
+	position: absolute;
+	margin-left: 42%;
+}
+.drawer4{
+	float: left;
+	position: absolute;
+	margin-left: 58%;
+}
+.drawer5{
+	float: left;
+	position: absolute;
+	margin-left: 73%;
+}
+.drawer6{
+	position: absolute;
+	margin-left: 88%;
+}
+#drawer-menu a:hover{ font-size: 22px; }
